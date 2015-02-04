@@ -1510,28 +1510,28 @@
 	<Manufacturer>
 		<Id>001d</Id>
 		<Name>Leviton</Name>
-		<Product>
-			<Reference>
-				<Type>0301</Type>
-				<Id>0209</Id>
-			</Reference>
-			<Reference>
-				<Type>301</Type>
-				<Id>0334</Id>
-            </Reference>
-			<Model>VRS15-1LZ</Model>
-			<Label lang="en">Scene Capable Push On/Off</Label>
-			<ConfigFile>leviton/vrs15-1lz.xml</ConfigFile>
-		</Product>
+			<Product>
+				<Reference>
+					<Type>0301</Type>
+					<Id>0209</Id>
+				</Reference>
+				<Reference>
+					<Type>301</Type>
+					<Id>0334</Id>
+				</Reference>
+				<Model>VRS15-1LZ</Model>
+				<Label lang="en">Scene Capable Push On/Off</Label>
+				<ConfigFile>leviton/vrs15-1lz.xml</ConfigFile>
+			</Product>
 		<Product>
 			<Reference>
 				<Type>0401</Type>
 				<Id>0209</Id>
 			</Reference>
-			 <Reference>
-                <Type>0401</Type>
-                <Id>0334</Id>
-            </Reference>
+			<Reference>
+        <Type>0401</Type>
+        <Id>0334</Id>
+      </Reference>
 			<Model>VRI06-1LZ</Model>
 			<Label lang="en">Scene Capable Push On/Off Dimmer</Label>
 			<ConfigFile>leviton/vri06-1lz.xml</ConfigFile>
@@ -1561,6 +1561,15 @@
 			</Reference>
 			<Model>VRCZ4-M0Z</Model>
 			<Label lang="en">4-Zone Controller</Label>
+			<ConfigFile>leviton/vrcz4-m0z.xml</ConfigFile>
+		</Product>
+		<Product>
+			<Reference>
+							<Type>1202</Type>
+							<Id>243</Id>
+			</Reference>
+			<Model>VRCZ4-MRZ</Model>
+			<Label lang="en">4-Zone Controller with Switch</Label>
 			<ConfigFile>leviton/vrcz4-m0z.xml</ConfigFile>
 		</Product>
 	</Manufacturer>
@@ -1762,5 +1771,5 @@
 			<ConfigFile>yale/yrd210.xml</ConfigFile>
 		</Product>
 	</Manufacturer>
-	
+
 </Manufacturers>
